@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:linear-gradient(to right ,rgb(236, 236, 104) ,white);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    padding: 35;
+    padding-top: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 20px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.logo{
+    width: 75px;
+    height: 30px;
+    margin-left: 5px;
+    
+}
+
+.bn{
+    height: 40px;
+    width: 95px;
+    border-radius: 15px;
+padding: 5px;
+background:linear-gradient(to right,rgb(218, 238, 104) , rgb(238, 153, 104))
+
+    
+}
+.back{
+    float: right;
+    width: 375px;
+    height: 965;
+    margin-right:90px ;
+    margin-top: 85px;
+}
+
+.content{
+    margin-left: 45px;
+    padding-top: 35px;
+    color: #201c1c;
+}
+
+.pera{
+    padding: 20px;
+    padding-top: 20px;
+margin: 20px;
+color: black;
+font-size: 20px;
+}
+.heading{
+padding: 20px;
+margin: 20px;
+color: black;
+font-size: 49px;
+padding-top: 55px;
+
+}
+.bn1{
+    border-radius: 15px;
+    border-color: none;
+    width: 134px;
+    height:35px ;
+    color: #f1efef;
+    margin-left: 40px;
+    background:linear-gradient(to right,rgb(223, 70, 10) , rgb(203, 216, 14))
+}
